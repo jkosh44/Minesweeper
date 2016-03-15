@@ -170,7 +170,9 @@ public class MinesweeperView extends View {
                 if (!MinesweeperModel.getInstance().getFlagStatus()) {
                     handlePlayerMove(tX, tY);
                 } else {
-                    handleFlagPlayerMove(tX, tY);
+                    if(MinesweeperModel.getInstance().getFlaggedContent(tX, tY) == false) {
+                        handleFlagPlayerMove(tX, tY);
+                    }
                 }
                 invalidate();
 
