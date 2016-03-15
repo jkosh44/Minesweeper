@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="minesweeper_title">Minesweeper by Joseph Koshakow</string>
+    <string name="game_over">Oh No! You Hit a Bomb... Game Over.</string>
+    <string name="game_won">Congradulations you won!</string>
+    <string name="restart">Game has been restarted</string>
+    <string name="restart_button">Restart</string>
+    <string name="flagGameOver">There was no bomb there...Game Over!</string>
+    <string name="totalBombs">There are 3 total bombs</string>
+    <string name="flagsOff">Flags: Off</string>
+    <string name="flagsOn">Flags: On</string>
+</resources>
